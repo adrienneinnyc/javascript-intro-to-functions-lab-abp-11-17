@@ -19,5 +19,9 @@ function sayHiToGrandma(string) {
     return "I can't hear you!";
   } elseif (string === `${string.toUpperCase()}`) {
     return "YES, INDEED!";
+  } else {
+    return "I love you, Grandma.";
   }
 }
+
+
